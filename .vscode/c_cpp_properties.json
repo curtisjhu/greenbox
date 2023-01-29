@@ -1,0 +1,98 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/curtisjhu/c/greenbox/include",
+                "/Users/curtisjhu/c/greenbox/src",
+                "/Users/curtisjhu/c/greenbox/.pio/libdeps/msp430f5529lp/Unity/src",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/cores/msp430",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/variants/MSP-EXP430F5529LP",
+                "/Users/curtisjhu/.platformio/packages/toolchain-timsp430/msp430/include",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/AIR430BoostEuropeETSI",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/AIR430BoostEuropeETSI/utility",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/AIR430BoostUSAFCC",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/AIR430BoostUSAFCC/utility",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/DriverLib",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/DriverLib/utility",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/EduBPMKII_Screen",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/IRremote",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/Kentec_35_SPI",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/LCD_Launchpad",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/LiquidCrystal",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/MspFlash",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/PubNub",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/SPI",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/SPI/utility",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/Servo",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/SoftwareSerial",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/Stepper",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/USBSerial",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/WiFi",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/WiFi/utility",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/Wire",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/Wire/utility",
+                "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/aJson",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/curtisjhu/c/greenbox/include",
+                    "/Users/curtisjhu/c/greenbox/src",
+                    "/Users/curtisjhu/c/greenbox/.pio/libdeps/msp430f5529lp/Unity/src",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/cores/msp430",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/variants/MSP-EXP430F5529LP",
+                    "/Users/curtisjhu/.platformio/packages/toolchain-timsp430/msp430/include",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/AIR430BoostEuropeETSI",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/AIR430BoostEuropeETSI/utility",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/AIR430BoostUSAFCC",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/AIR430BoostUSAFCC/utility",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/DriverLib",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/DriverLib/utility",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/EduBPMKII_Screen",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/IRremote",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/Kentec_35_SPI",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/LCD_Launchpad",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/LiquidCrystal",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/MspFlash",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/PubNub",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/SPI",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/SPI/utility",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/Servo",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/SoftwareSerial",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/Stepper",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/USBSerial",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/WiFi",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/WiFi/utility",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/Wire",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/Wire/utility",
+                    "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/aJson",
+                    ""
+                ]
+            },
+            "defines": [
+                "F_CPU=25000000L",
+                "PLATFORMIO=60106",
+                "ENERGIA_ARCH_MSP430",
+                "ENERGIA_MSP_EXP430F5529LP",
+                "VERSION=0.1.0",
+                "DEBUG=1",
+                "ARDUINO=10807",
+                "ENERGIA=10810",
+                ""
+            ],
+            "compilerPath": "/Users/curtisjhu/.platformio/packages/toolchain-timsp430/bin/msp430-gcc",
+            "compilerArgs": [
+                "-mmcu=msp430f5529",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
