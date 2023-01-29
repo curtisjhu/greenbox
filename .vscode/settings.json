@@ -1,6 +1,7 @@
 {
 	"files.associations": {
 		"arduino.h": "c",
-		"unity.h": "c"
+		"unity.h": "c",
+		"energia.h": "c"
 	}
 }

@@ -10,10 +10,10 @@
             "includePath": [
                 "/Users/curtisjhu/c/greenbox/include",
                 "/Users/curtisjhu/c/greenbox/src",
-                "/Users/curtisjhu/c/greenbox/.pio/libdeps/msp430f5529lp/Unity/src",
                 "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/cores/msp430",
                 "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/variants/MSP-EXP430F5529LP",
                 "/Users/curtisjhu/.platformio/packages/toolchain-timsp430/msp430/include",
+                "/Users/curtisjhu/c/greenbox/.pio/libdeps/msp430f5529lp/Unity/src",
                 "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/AIR430BoostEuropeETSI",
                 "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/AIR430BoostEuropeETSI/utility",
                 "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/AIR430BoostUSAFCC",
@@ -45,10 +45,10 @@
                 "path": [
                     "/Users/curtisjhu/c/greenbox/include",
                     "/Users/curtisjhu/c/greenbox/src",
-                    "/Users/curtisjhu/c/greenbox/.pio/libdeps/msp430f5529lp/Unity/src",
                     "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/cores/msp430",
                     "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/variants/MSP-EXP430F5529LP",
                     "/Users/curtisjhu/.platformio/packages/toolchain-timsp430/msp430/include",
+                    "/Users/curtisjhu/c/greenbox/.pio/libdeps/msp430f5529lp/Unity/src",
                     "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/AIR430BoostEuropeETSI",
                     "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/AIR430BoostEuropeETSI/utility",
                     "/Users/curtisjhu/.platformio/packages/framework-energiamsp430/libraries/AIR430BoostUSAFCC",
