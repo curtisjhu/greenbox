@@ -16,22 +16,20 @@ uint8_t DATA[] = {P8_2, P3_7, P4_0, P4_3, P1_2, P1_3, P1_4, P1_5};
 void cycle() {
 	unsigned int address = 0;
 	for (int i = 0; i < 16; i++) {
-		int bit = digitalRead(ADDR[i]) ? 1 : 0;
+		int bit = digitalRead(ADDR[i]);
 		address = (address<<1) + bit;
 	}
 
 	unsigned int databus = 0;
 	for (int j = 0; j < 8; j++) {
 		int bit = digitalRead(DATA[j]) ? 1 : 0;
-
 		databus = (databus<<1) + bit;
 	}
 
-	Serial.print("    ");
-
 	char output[40];
 	char read_write = digitalRead(R_W) ? 'r' : 'w';
-	sprintf(output, "%02x  %02x", address, databus);
+	sprintf(output, "%02x %c %02x", address, read_write, databus);
+
 	Serial.println(output);
 }
 
@@ -47,7 +45,7 @@ void setup()
 	for (int i = 0; i < 8; i++)
 		pinMode(ADDR[i], INPUT);
 
-	attachInterrupt(digitalPinToInterrupt(CLOCK), cycle, CHANGE);
+	attachInterrupt(digitalPinToInterrupt(CLOCK), cycle, RISING);
 }
 
 void loop(){}
